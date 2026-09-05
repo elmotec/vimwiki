@@ -4,13 +4,19 @@ A small, Git-backed notebook for research, project, and reading notes. The
 repository keeps notes as ordinary Markdown files and is intended to work well
 with Neovim and Mkdnflow/vimwiki.
 
+## Personal wiki
+
 ## Layout
 
-- `Inbox.md` is an unstructured capture buffer. Process entries only when
-  explicitly requested.
-- `src/` is the Mkdnflow notebook root and contains substantive notes.
-- `src/Tags.md` defines the available note-status tags.
-- `index.md` is the human-maintained starting point.
+- [Inbox.md](Inbox.md) is an unstructured capture buffer. Process entries only
+  when explicitly requested.
+- [Diary/](diary/) is an optional list of daily notes that can be used as an
+  alternative to [Inbox.md](Inbox.md).
+- [Wiki conventions](src/WikiConventions.md) is the rules set to help maintain
+  and scale the wiki.
+- [src/](src/) is the Mkdnflow notebook root and contains substantive notes.
+- [src/Tags.md](src/Tags.md) defines the available note-status tags.
+- [src/README.md](src/README.md) is the human-maintained starting point.
 
 ## Working with notes
 
