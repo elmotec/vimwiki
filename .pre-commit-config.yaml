@@ -7,6 +7,13 @@ repos:
     rev: v0.23.2
     hooks:
       - id: markdownlint-cli2
+  - repo: https://github.com/lycheeverse/lychee
+    rev: lychee-v0.24.2
+    hooks:
+      - id: lychee
+        args: [--no-progress]
+        types: [markdown]
+        exclude: ^\.agents/
   - repo: https://github.com/Yelp/detect-secrets
     rev: v1.5.0
     hooks:
