@@ -18,7 +18,7 @@
 ## Layout and Markdown
 
 - `src/` is the Mkdnflow notebook root; substantive notes and explicit
-  subdirectories live there. Root `index.md` and `Inbox.md` are outside the
+  subdirectories live there. Root `index.md` and `inbox/` are outside the
   notebook graph.
 - Use GitHub-Flavored Markdown and `CamelCase.md` names. Every normal note
   starts with one H1, then an optional colon tag on the next line.

@@ -8,10 +8,10 @@ with Neovim and Mkdnflow/vimwiki.
 
 ## Layout
 
-- [Inbox.md](Inbox.md) is an unstructured capture buffer. Process entries only
-  when explicitly requested.
+- [inbox/new.md](inbox/new.md) is the default unstructured capture buffer.
+  Process entries only when explicitly requested.
 - [Diary/](diary/) is an optional list of daily notes that can be used as an
-  alternative to [Inbox.md](Inbox.md).
+  alternative to the inbox.
 - [Wiki conventions](src/WikiConventions.md) is the rules set to help maintain
   and scale the wiki.
 - [src/](src/) is the Mkdnflow notebook root and contains substantive notes.
