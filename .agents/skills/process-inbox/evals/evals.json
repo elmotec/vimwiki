@@ -1,0 +1,23 @@
+{
+  "skill_name": "process-inbox",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Process the inbox.",
+      "expected_output": "File a concise source note in the appropriate src/ directory, preserve its source, make only clear links, remove the processed inbox file, and leave edits unstaged.",
+      "files": ["inbox/2026-09-08-software-migrations.md"]
+    },
+    {
+      "id": 2,
+      "prompt": "Clear the inbox.",
+      "expected_output": "Identify personal or sensitive captures, do not file them, and ask the user for explicit approval while leaving the files intact.",
+      "files": ["inbox/2026-09-08-private-note.md"]
+    },
+    {
+      "id": 3,
+      "prompt": "File inbox/2026-09-08-build-tools.md.",
+      "expected_output": "Preserve pre-existing worktree changes, check related software notes, create or update one concise suitable note, validate links and formatting, then report unstaged changes.",
+      "files": ["inbox/2026-09-08-build-tools.md"]
+    }
+  ]
+}
